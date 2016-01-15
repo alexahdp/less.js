@@ -1,52 +1,65 @@
 {
-  "name": "less",
-  "version": "1.7.5",
-  "description": "Leaner CSS",
-  "homepage": "http://lesscss.org",
+  "_args": [
+    [
+      "uless",
+      "/home/projects/ulight/ulight2"
+    ]
+  ],
+  "_from": "uless@latest",
+  "_id": "uless@1.0.1",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/uless",
+  "_nodeVersion": "4.2.2",
+  "_npmUser": {
+    "email": "alexahdp@gmail.com",
+    "name": "alexahdp"
+  },
+  "_npmVersion": "3.5.0",
+  "_phantomChildren": {
+    "amdefine": "1.0.0",
+    "assert-plus": "0.1.5",
+    "ctype": "0.5.3",
+    "json-stringify-safe": "5.0.1",
+    "node-uuid": "1.4.7",
+    "stringstream": "0.0.5",
+    "tough-cookie": "2.2.1",
+    "tunnel-agent": "0.4.1"
+  },
+  "_requested": {
+    "name": "uless",
+    "raw": "uless",
+    "rawSpec": "",
+    "scope": null,
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_shasum": "d469ed5abf40e29dd53f837bdafb3d2f938774c5",
+  "_shrinkwrap": null,
+  "_spec": "uless",
+  "_where": "/home/projects/ulight/ulight2",
   "author": {
-    "name": "Alexis Sellier",
-    "email": "self@cloudhead.net"
+    "email": "alexahdp@gmail.com",
+    "name": "Alexander Pezikov"
   },
-  "contributors": [
-    "The Core Less Team"
-  ],
-  "bugs": {
-    "url": "https://github.com/less/less.js/issues"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/less/less.js.git"
-  },
-  "licenses": [
-    {
-      "type": "Apache v2",
-      "url": "https://github.com/less/less.js/blob/master/LICENSE"
-    }
-  ],
   "bin": {
     "lessc": "./bin/lessc"
   },
-  "main": "./lib/less/index",
-  "directories": {
-    "test": "./test"
+  "bugs": {
+    "url": "https://github.com/alexahdp/less.js/issues"
   },
-  "jam": {
-    "main": "./dist/less-1.7.5.js"
-  },
-  "engines": {
-    "node": ">=0.8.0"
-  },
-  "scripts": {
-    "test": "grunt test"
-  },
-  "optionalDependencies": {
+  "dependencies": {
+    "clean-css": "2.2.x",
     "graceful-fs": "~3.0.2",
     "mime": "~1.2.11",
-    "request": "~2.40.0",
     "mkdirp": "~0.5.0",
-    "clean-css": "2.2.x",
+    "request": "~2.40.0",
     "source-map": "0.1.x"
   },
+  "description": "less.js fork",
   "devDependencies": {
     "diff": "~1.0",
     "grunt": "~0.4.2",
@@ -60,30 +73,70 @@
     "http-server": "~0.6.1",
     "matchdep": "~0.3.0",
     "time-grunt": "~0.3.1"
- },
+  },
+  "directories": {
+    "test": "./test"
+  },
+  "dist": {
+    "shasum": "d469ed5abf40e29dd53f837bdafb3d2f938774c5",
+    "tarball": "http://registry.npmjs.org/uless/-/uless-1.0.0.tgz"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "homepage": "https://github.com/alexahdp/less.js#readme",
+  "jam": {
+    "main": "./dist/less-1.7.5.js"
+  },
   "keywords": [
+    "bootstrap css",
+    "bootstrap less",
     "compile less",
+    "css",
+    "css less",
     "css nesting",
     "css variable",
-    "css",
     "gradients css",
     "gradients css3",
+    "less",
     "less compiler",
     "less css",
     "less mixins",
-    "less",
     "less.js",
     "lesscss",
     "mixins",
     "nested css",
     "parser",
     "preprocessor",
-    "bootstrap css",
-    "bootstrap less",
     "style",
     "styles",
     "stylesheet",
-    "variables in css",
-    "css less"
-  ]
+    "variables in css"
+  ],
+  "licenses": [],
+  "main": "./lib/less/index",
+  "maintainers": [
+    {
+      "name": "alexahdp",
+      "email": "alexahdp@gmail.com"
+    }
+  ],
+  "name": "uless",
+  "optionalDependencies": {
+    "clean-css": "2.2.x",
+    "graceful-fs": "~3.0.2",
+    "mime": "~1.2.11",
+    "mkdirp": "~0.5.0",
+    "request": "~2.40.0",
+    "source-map": "0.1.x"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexahdp/less.js.git"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "version": "1.0.1"
 }
